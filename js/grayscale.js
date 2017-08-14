@@ -35,4 +35,24 @@
         }
     });
 
+    $('#story-closed').click(function(){
+      $('#story-opened').toggle();
+    });
+
+    $('#different-closed').click(function(){
+      $('#different-opened').toggle();
+    });
+
+    $('#wrong-closed').click(function(){
+      $('#wrong-opened').toggle();
+    });
+
+    $('#change-closed').click(function(){
+      $('#change-opened').toggle();
+    });
+
+    $('#why-closed').click(function(){
+      $('#why-opened').toggle();
+    });
+
 })(jQuery); // End of use strict

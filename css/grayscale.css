@@ -197,6 +197,7 @@ a {
 
 .white-dot-underlined {
   border-bottom: 1px dotted white;
+  cursor:help;
 }
 
 .black-text {
@@ -220,8 +221,12 @@ a {
 
 .inline-div {
   display: inline-block;
-  margin: 2px;
+  margin: 0px;
   margin-top: 10px;
+}
+
+.hidden-element {
+  display: none;
 }
 
 /*timeline*/
