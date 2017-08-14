@@ -371,7 +371,7 @@ a {
   .portfolio-modal .modal-content {
     min-height: 100%;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     border: none;
     border-radius: 0;
     background-clip: border-box;
