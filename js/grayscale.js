@@ -35,6 +35,8 @@
         }
     });
 
+    $('[data-toggle="tooltip"]').tooltip();
+
     $('#story-closed').click(function(){
       $('#story-opened').toggle();
     });
@@ -53,6 +55,26 @@
 
     $('#why-closed').click(function(){
       $('#why-opened').toggle();
+    });
+
+    $('#free-time-closed').click(function(){
+      $('#free-time-opened').toggle();
+    });
+
+    $('#speedcubing-closed').click(function(){
+      $('#speedcubing-opened').toggle();
+    });
+
+    $('#powerlifting-closed').click(function(){
+      $('#powerlifting-opened').toggle();
+    });
+
+    $('#lossless-closed').click(function(){
+      $('#lossless-opened').toggle();
+    });
+
+    $('#arthouse-closed').click(function(){
+      $('#arthouse-opened').toggle();
     });
 
 })(jQuery); // End of use strict

@@ -115,7 +115,6 @@ a {
     .masthead .intro-body .intro-text-1 {
       color: #5AE8FD;
       margin: 1px;
-      /*color: #FD5AE8;*/
       font-size: 18px; }
     .masthead .intro-body .intro-text-2 {
       color: #FD5AE8;
@@ -228,6 +227,25 @@ a {
 .hidden-element {
   display: none;
 }
+
+.no-transformation {
+  text-transform: none;
+}
+
+.blog-post-title {
+  text-transform: none;
+  margin-bottom: 10px;
+}
+
+.blog-post-subtitle {
+  text-transform: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/*.blog-post-meta {
+
+}*/
 
 /*timeline*/
 .timeline {

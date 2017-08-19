@@ -11,7 +11,7 @@
   <title> Hoanh An = Software Engineer x Founder </title>
 
   <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/kirill-kazachek" title="Kirill Kazachek">Kirill Kazachek</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-  <link rel="icon" href="code-terminal.png" type="image/gif" sizes="32x32">
+  <link rel="icon" href="img/code-terminal.png" type="image/gif" sizes="32x32">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +71,7 @@
             <a class="nav-link" href="#contact"> Contact </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#blog"> Blog </a>
+            <a class="nav-link" href="blog/blog-home.html"> Blog </a>
           </li>
         </ul>
       </div>
@@ -86,11 +86,10 @@
           <div class="col-md-8 mx-auto">
             <h1 class="brand-heading"> Hoanh_An </h1>
             <p class="intro-text-1"> Software Engineer & Founder by heart.</p>
-
-            <p class="intro-text-2"> Solve problems, build stuff & hang around smart people. </p>
-            <a href="#about" class="btn btn-circle page-scroll">
+            <p class="intro-text-2"> Build stuff & hang around smart people. </p>
+            <!-- <a href="#about" class="btn btn-circle page-scroll">
               <i class="fa fa-angle-double-down animated"></i>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -106,7 +105,7 @@
           <p> Hi, </p>
           <p>
             My name is <span class="green-marker black-text">Hoanh An</span> and I am a <span class="green-underlined">software engineer</span>.
-            Before reading any further, let me tell you <span id="story-closed" class="white-dot-underlined">my story</span>. <i class="fa fa-hand-o-left text-muted" aria-hidden="true"></i>
+            Before reading any further, let me tell you <span id="story-closed" class="white-dot-underlined" data-toggle="tooltip" data-placement="bottom" title="white-dot link is magic">my story</span>. <i class="fa fa-hand-o-left text-muted" aria-hidden="true"></i>
           </p>
           <p id="story-opened" class="hidden-element">
             It all started when I was in <span class="red-text">high school</span>.
@@ -152,6 +151,31 @@
           <p>
             <span class="green-text"> My lifetime mission is to either join a breakout startup or start my own. </span>
             As long as I can <span class="blue-text">constantly build stuff</span> and <span class="pink-text">work on challenging problems</span>, I would be happy.
+          </p>
+
+          <p> <span class="orange-text">In my free time</span>, I enjoy building fun projects, honing my knowledge in sincere and engineering.
+            <span id="free-time-closed" class="white-dot-underlined" data-toggle="tooltip" data-placement="bottom" title="white-dot link is amazing">Otherwise</span>, <i class="fa fa-hand-o-left text-muted" aria-hidden="true"></i>
+          </p>
+
+          <p id="free-time-opened" class="hidden-element">
+            I would probably doing <span id="speedcubing-closed" class="white-dot-underlined">speedcubing</span>, <span id="powerlifting-closed" class="white-dot-underlined">powerlifting</span>, listening to <span id="lossless-closed" class="white-dot-underlined">lossless audio</span>, or enjoying <span id="arthouse-closed" class="white-dot-underlined">arthouse cinema</span>.
+            I talk about more about them in <a href="blog/blog-home.html" class="green-underlined">my blog</a>.
+          </p>
+
+          <p id="speedcubing-opened" class="hidden-element">
+            <span class="orange-text">Fact #1</span>: When I was in secondary school, my personal record for 3x3 Rubik’s cube was around <span class="orange-text">15</span> seconds.
+          </p>
+
+          <p id="powerlifting-opened" class="hidden-element">
+            <span class="orange-text">Fact #2</span>: Right now, I am squatting and deadlifting <span class="orange-text">1.25</span> times my bodyweight and aiming to lift <span class="orange-text">twice</span> in the end of next year. I am hoping to build a solid strength then moving to Olympic weightlifting someday.
+          </p>
+
+          <p id="lossless-opened" class="hidden-element">
+            <span class="orange-text">Fact #3</span>: I would definitely invest in an expensive hi-fi audio system if I had “a small loan of a million dollars”
+          </p>
+
+          <p id="arthouse-opened" class="hidden-element">
+            <span class="orange-text">Fact #4</span>: I think Eastern movies has more depth than Western’s since they are lack of popularity and sometimes underrated.
           </p>
 
         </div>
@@ -677,7 +701,8 @@
                 <p>
                   Let’s say you have an iPhone 6 and want an iPhone 7. Other people have an iPhone 6 but want to downgrade for some reasons. Estuff! connects 2 of you to make the deal as easy as possible.
                 </p>
-                <p class="red-text"> Here is the prototype I built when launched this project back in 2016: <a href="http://estuff.herokuapp.com/">http://estuff.herokuapp.com/</a></p>
+                <p class="red-text"> Here is my launch plan that provides full details of my story (<span class="orange-text">~3000 words</span>): <a class="green-underlined" href="blog/post-120716.html"> Naive eStuff's launch plan</a></p>
+                <p class="red-text"> This is the prototype I built when launched this project back in 2016: <a class="green-underlined" href="http://estuff.herokuapp.com/">http://estuff.herokuapp.com/</a></p>
                 <div class="text-center">
                   <a href="https://github.com/hoanhan101/hackathon_Techkids_C4E4_eStuff" class="btn btn-default btn-lg"> <span class="network-name">visit repo</span></a>
                 </div>
@@ -703,7 +728,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-center green-text">TicTacToe AI</h2>
               <p> This is my attempt to build the first AI ever, using Minimax algorithm. </p>
-              <p class="red-text"> This is a working demo: </p>
+              <p class="red-text"> Here is a working demo: </p>
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hhFwxG_-Pa0"></iframe>
               </div>
@@ -734,7 +759,7 @@
                 <h2 class="text-center green-text">PokemonQuiz</h2>
                 <p class="text-muted"> I was learning Swift and came up with the idea to build this game because Pokemon Go was extremely popular that time. </p>
                 <p> How to play: Choose the right name for each pokemon before time is running out. </p>
-                <p class="red-text"> This is a working demo: </p>
+                <p class="red-text"> Here is a working demo: </p>
                 <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PJJgCx9vaDY"></iframe>
                 </div>
@@ -772,7 +797,7 @@
                   <li> It had the learning process: Green line for Mastered Word (Right on first try), Yellow for Reviewing (Right on the second try), Red for Learning (Every wrong).</li>
                 </ol>
 
-                <p class="red-text"> This is a working demo: </p>
+                <p class="red-text"> Here is a working demo: </p>
                 <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PR2boMlM7Cg"></iframe>
                 </div>
@@ -803,14 +828,14 @@
               <div class="modal-body">
                 <h2 class="text-center green-text">Elephants' War</h2>
                 <p class="text-muted"> Reverse engineered the flash game "Đại chiến voi rừng" into Java Game for fun. I used to play this game a lot when I was young.</p>
-                <p class="text-muted"> Link for original game: http://static.game.24h.com.vn/upload/game/2010-08-07/1281145985_DaiChienVoiRung.swf </p>
+                <p class="text-muted"> <a class="text-muted" href="http://static.game.24h.com.vn/upload/game/2010-08-07/1281145985_DaiChienVoiRung.swf"><u>Link for original game</u></a> </p>
                 <p> How to play:</p>
                 <ul>
                   <li> Player "Girl | D: call elephants; W,S: go up, go down</li>
-                  <li> Player "Oldman"| left arrow: call elephants; up and down arrow key: go up and go down</li>
+                  <li> Player "Oldman"| left arrow: call elephants; up and down arrow: go up and go down</li>
                 </ul>
 
-                <p class="red-text"> This is a working demo: </p>
+                <p class="red-text"> Here is a working demo: </p>
                 <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r85tonepmWQ"></iframe>
                 </div>
