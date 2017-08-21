@@ -243,11 +243,47 @@ a {
   margin-bottom: 10px;
 }
 
-/*.blog-post-meta {
+.blinking-fast {
+    animation-name: fast-blinking;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
 
-}*/
+/* Standard syntax */
+@keyframes fast-blinking {
+    0%  {color: #222;}
+    50% {color: white;}
+    100% {color: #222;}
+}
 
-/*timeline*/
+
+.blinking-slow {
+    animation-name: slow-blinking;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes slow-blinking {
+    0%  {color: #222;}
+    50% {color: white;}
+    100% {color: #222;}
+}
+
+.blinking-slow-green {
+    animation-name: slow-green-blinking;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes slow-green-blinking {
+    0%  {color: #222;}
+    50% {color: #29fca5;}
+    100% {color: #222;}
+}
+
+/* TIMELINE */
 .timeline {
   position: relative;
   padding: 0;
@@ -462,7 +498,7 @@ a {
       float: left;
       width: 41%;
       padding: 0 20px 20px 30px;
-      text-align: right; }
+      text-align: left; }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 30px 20px 20px;
