@@ -272,12 +272,25 @@ a {
 
 .blinking-slow-green {
     animation-name: slow-green-blinking;
-    animation-duration: 15s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 /* Standard syntax */
 @keyframes slow-green-blinking {
+    0%  {color: #222;}
+    50% {color: #29fca5;}
+    100% {color: #222;}
+}
+
+.blinking-slow-green-highlight {
+    animation-name: slow-green-highlight-blinking;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes slow-green-highlight-blinking {
     0%  {color: #222;
         background-color: #29fca5
         }
@@ -581,7 +594,8 @@ ul.banner-social-buttons {
         margin-bottom: 0; } }
 
 footer {
-  padding: 50px 0; }
+  padding: 50px 0;
+}
   footer p {
     font-size: 14px;
     margin: 0; }
