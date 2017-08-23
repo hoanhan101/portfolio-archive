@@ -272,15 +272,21 @@ a {
 
 .blinking-slow-green {
     animation-name: slow-green-blinking;
-    animation-duration: 4s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 
 /* Standard syntax */
 @keyframes slow-green-blinking {
-    0%  {color: #222;}
-    50% {color: #29fca5;}
-    100% {color: #222;}
+    0%  {color: #222;
+        background-color: #29fca5
+        }
+    50% {color: #29fca5;
+        background-color: black
+        }
+    100% {color: #222;
+        background-color: #29fca5
+        }
 }
 
 /* TIMELINE */

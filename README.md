@@ -1,4 +1,3 @@
-## Acknowledgments
+Coded and designed by me - Hoanh An
 
-* Coded and designed by me - Hoanh An
-* Built on [Grayscale template](http://startbootstrap.com/template-overviews/grayscale/) by [Start Bootstrap](http://startbootstrap.com/).
+Based on [Grayscale template](http://startbootstrap.com/template-overviews/grayscale/) by [Start Bootstrap](http://startbootstrap.com/).
