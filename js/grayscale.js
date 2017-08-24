@@ -77,4 +77,15 @@
       $('#arthouse-opened').toggle();
     });
 
+
 })(jQuery); // End of use strict
+
+
+// var $playOnHover = $('.playOnHover');
+// $playOnHover.on('mouseenter focus', function() {
+//   $playOnHover.get(0).play();
+// });
+//
+// $playOnHover.on('mouseout blur', function() {
+//   $playOnHover.get(0).pause();
+// });

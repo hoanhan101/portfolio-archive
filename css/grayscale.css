@@ -379,8 +379,8 @@ a {
     margin: 0 auto;
     cursor: pointer; }
     #portfolio .portfolio-item .portfolio-link img {
-      filter: opacity(80%);
-      -webkit-filter: opacity(80%);
+      filter: opacity(95%);
+      -webkit-filter: opacity(95%);
     }
     /*#portfolio .portfolio-item .portfolio-link img:hover {
       filter: none;
